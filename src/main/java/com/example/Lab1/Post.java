@@ -13,6 +13,8 @@ public class Post {
         this.creationDate = creationDate;
         this.likes = 0;
     }
+    public Post(){}
+
     public String getText(){
         return text;
     }
@@ -21,5 +23,15 @@ public class Post {
     }
     public Date getCreationDate(){
         return creationDate;
+    }
+
+    public void setText(String text){
+        this.text = text;
+    }
+    public void setLikes(Integer likes){
+        this.likes = likes;
+    }
+    public void setCreationDate(Date creationDate){
+        this.creationDate = creationDate;
     }
 }
